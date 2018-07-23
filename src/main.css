@@ -1,0 +1,131 @@
+.overall{
+    background-color: rgb(39, 25, 25);
+    padding: 0;
+    border: none;
+    /* background: none; */
+
+
+
+}
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    overflow: hidden;
+    
+    
+
+}
+.logo{
+    color: #fed136;
+    font-family: "dancing script";
+    font-size: 2em;
+    width: 50%;
+    height: 100%;
+    margin: 15px;
+
+}
+.nav{
+    height: 100%;
+    transition: 1s;
+    width: 75%;
+
+
+}
+.nav:hover{
+    height: 100%;
+    display: none;
+
+
+}
+.btn, .btn-menu{
+    background: #fed136;
+    border-radius: 3px;
+    height: 50px;
+    width: 150px;
+    color: white;
+    font-size: 20px;
+    margin: 25px;
+    text-shadow: none;
+
+}
+.btn-menu{
+    width: 80px;
+    display: none;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+
+}
+li{
+    font-size: bold;
+    width:100px;
+
+
+}
+.container{
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    height: 40vh;
+    flex-direction: column;
+
+}
+.container-1{
+    font-weight: 800;
+    font-family: cursive;
+    color: white;
+    margin: 25px;
+    font-size: 25px;
+    
+}
+.container-2{
+    font-weight: bold;
+    color: white;
+    margin: 25px;
+    font-size: 25px;
+
+
+
+
+}
+
+@media(max-width:700px){
+    ul{
+        flex-direction:column;
+    }
+    .header{
+        height: 200px;
+    }
+    /* ul{
+        overflow: hidden;
+    } */
+    .btn-menu{
+      width: 80px;
+      background: #fed136;
+      border-radius: 3px;
+      height: 50px;
+      width: 150px;
+      color: white;
+      font-size: 20px;
+      margin: 25px;
+      text-shadow: none;
+      display: initial;
+
+    }
+}
+
+/* li{
+    width:100px;
+    padding:5px;
+}
+.burger{
+    width: 100px;
+} */
